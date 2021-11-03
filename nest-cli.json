@@ -1,0 +1,30 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/homechef/src",
+  "monorepo": true,
+  "root": "apps/homechef",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/homechef/tsconfig.app.json"
+  },
+  "projects": {
+    "homechef": {
+      "type": "application",
+      "root": "apps/homechef",
+      "entryFile": "main",
+      "sourceRoot": "apps/homechef/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/homechef/tsconfig.app.json"
+      }
+    },
+    "menu": {
+      "type": "application",
+      "root": "apps/menu",
+      "entryFile": "main",
+      "sourceRoot": "apps/menu/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/menu/tsconfig.app.json"
+      }
+    }
+  }
+}
