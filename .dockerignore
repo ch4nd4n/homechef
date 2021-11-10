@@ -1,5 +1,7 @@
 .env
 .git
+.github
+dist
 node_modules
-Dockerfile
+Dockerfile.menu
 .gitignore
