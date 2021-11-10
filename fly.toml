@@ -7,7 +7,7 @@ kill_timeout = 5
 processes = []
 
 [build]
-  image = "ch4nd4n/homechef-menu:latest"
+  image = "ghcr.io/ch4nd4n/homechef:feature-dockerize"
 
 [env]
   PORT = "3000"
