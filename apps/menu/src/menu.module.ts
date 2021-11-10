@@ -7,7 +7,6 @@ import { env } from 'process';
 import { MenuController } from './menu.controller';
 import { MenuService } from './menu.service';
 import { Menu, MenuSchema } from './schemas/menu-schema';
-
 @Module({
   imports: [
     ConfigModule.forRoot(),

@@ -7,6 +7,8 @@ export class MenuController {
 
   @Get()
   async findAll(): Promise<any> {
+    console.log(process.env.MONGODB_MENU)
+
     return await this.menuService.findAll();
   }
 }
